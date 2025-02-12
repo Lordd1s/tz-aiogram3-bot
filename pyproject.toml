@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "tz-aiogram3-bot"
+version = "0.1.0"
+description = ""
+authors = ["Lordd1s <uaudias@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+aiogram = "3"
+wikipedia-api = "^0.8.1"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^25.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
